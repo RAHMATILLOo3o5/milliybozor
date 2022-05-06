@@ -1,1 +1,1 @@
-# milliybozor
+# Milliy bozor - O'zbekiston amazoni!!!
