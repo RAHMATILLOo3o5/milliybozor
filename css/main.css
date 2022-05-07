@@ -403,7 +403,7 @@
   width: 10px !important;
   height: 10px !important;
   border-radius: 50% !important;
-  opacity: 1 !important;
+  opacity: 1 ;
 }
 .carousel-indicators .active{
   background-color: #797979 !important;
@@ -468,6 +468,13 @@ textarea{
 }
 .form-label:hover{
   text-decoration: underline;
+}
+.product li{
+  background-color: #000;
+  opacity: 0.1 !important;
+}
+.product .active{
+  opacity: 1 !important;
 }
 @media (max-width: 576px) {
   .navbar-brand img {
