@@ -474,4 +474,7 @@
   .footer-icons a{
     margin: auto;
   }
+  .dropdown_prof{
+    z-index: 3;
+  }
 }
