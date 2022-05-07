@@ -386,6 +386,28 @@
   color: #ff1111;
 }
 
+.breadcrumb{
+  background: #fff !important;
+}
+.breadcrumb li a{
+  color: #746d6d !important;
+}
+.breadcrumb .active{
+  color: #1d1d1d !important;
+  font-weight: 600 !important;; 
+}
+.carousel-indicators li{
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+}
+.carousel-control-prev{
+  border: none !important;
+}
+.carousel-control-next{
+  border: none !important;
+}
+
 @media (max-width: 576px) {
   .navbar-brand img {
     width: 150px !important;
