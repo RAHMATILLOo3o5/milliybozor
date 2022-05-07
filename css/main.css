@@ -475,6 +475,7 @@
     margin: auto;
   }
   .dropdown_prof{
-    z-index: 3;
+    z-index: 3 !important;
+    background-color: #fff !important;
   }
 }
