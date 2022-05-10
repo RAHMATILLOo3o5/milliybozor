@@ -611,6 +611,14 @@ textarea{
   text-decoration: line-through;
 }
 
+.home-carousel .carousel-indicators li{
+  background-color: #000;
+  opacity: 0.1 !important;
+}
+.home-carousel .carousel-indicators .active{
+  opacity: 1 !important;
+}
+
 @media (max-width: 576px) {
   .navbar-brand img {
     width: 150px !important;
