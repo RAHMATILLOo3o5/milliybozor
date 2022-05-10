@@ -411,7 +411,7 @@
 .carousel-indicators .active{
   background-color: #797979 !important;
 }
-.carousel-control-prev {
+.single-product .carousel-control-prev {
   border: none !important;
   height: 30px !important;
   width: 30px !important;
@@ -421,7 +421,7 @@
   opacity: 1;
   left: 2% !important;
 }
-.carousel-control-next {
+.single-product .carousel-control-next {
   border: none !important;
   height: 30px !important;
   width: 30px !important;
@@ -431,7 +431,7 @@
   opacity: 1;
   right: 2% !important;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon{
+.single-product .carousel-control-next-icon, .carousel-control-prev-icon{
   color: #ff1111 !important;
 }
 .user-info a{
@@ -618,6 +618,15 @@ textarea{
 .home-carousel .carousel-indicators .active{
   opacity: 1 !important;
 }
+#myCarousel5 .carousel-control-next, .carousel-control-prev{
+  border: none;
+  background: #fff;
+  color: red !important;
+}
+#myCarousel5 .carousel-control-next i, .carousel-control-prev i{
+  color: red !important;
+}
+
 
 @media (max-width: 576px) {
   .navbar-brand img {
